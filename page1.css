@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header img {
+    width: 60px; /* Adjust the size of your logo */
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  header h1 {
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-size: 24px;
+  }
+  
+  section {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  section p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section img {
+    width: 200px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    object-fit: contain; /* Preserve aspect ratio */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  section img:hover {
+    transform: scale(1.1);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+  }
+  
